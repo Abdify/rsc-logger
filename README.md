@@ -10,6 +10,8 @@
 
 > A beautiful and highly configurable network request logger for react server components.
 
+![log_demo](https://i.ibb.co/CMGMFmW/demo-log-git.png)
+
 ## Install
 
 ```bash
