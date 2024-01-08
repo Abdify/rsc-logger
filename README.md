@@ -77,10 +77,10 @@ export const logger = RSC_LOGGER.init({
 
 [build-img]: https://github.com/abdify/rsc-logger/actions/workflows/release.yml/badge.svg
 [build-url]: https://github.com/abdify/rsc-logger/actions/workflows/release.yml
-[downloads-img]: https://img.shields.io/npm/dt/typescript-npm-package-template
-[downloads-url]: https://www.npmtrends.com/typescript-npm-package-template
-[npm-img]: https://img.shields.io/npm/v/typescript-npm-package-template
-[npm-url]: https://www.npmjs.com/package/typescript-npm-package-template
+[downloads-img]: https://img.shields.io/npm/dt/rsc-logger
+[downloads-url]: https://www.npmtrends.com/rsc-logger
+[npm-img]: https://img.shields.io/npm/v/rsc-logger
+[npm-url]: https://www.npmjs.com/package/rsc-logger
 [issues-img]: https://img.shields.io/github/issues/abdify/rsc-logger
 [issues-url]: https://github.com/abdify/rsc-logger/issues
 [codecov-img]: https://codecov.io/gh/abdify/rsc-logger/branch/main/graph/badge.svg
