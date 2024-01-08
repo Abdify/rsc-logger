@@ -1,6 +1,6 @@
 {
   "name": "rsc-logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A logger for network requests in react server components",
   "main": "./lib/index.js",
   "files": [
