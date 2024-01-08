@@ -37,6 +37,8 @@ export default function Home() {
 
 ```ts
 RSC_LOGGER.init(options);
+logger.attachLogger();
+logger.removeLogger();
 ```
 
 #### options
