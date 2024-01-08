@@ -22,8 +22,9 @@ yarn add rsc-logger
 ## Usage
 
 ```ts
-import RSC_LOGGER from './rsc-logger';
+import RSC_LOGGER from 'rsc-logger';
 
+// Init in any file
 export const logger = RSC_LOGGER.init();
 
 // page.tsx
@@ -33,6 +34,19 @@ export default function Home() {
   return (...);
 }
 
+```
+
+### Configure Example
+
+```ts
+import RSC_LOGGER from './rsc-logger';
+
+export const logger = RSC_LOGGER.init({
+  mode: 'debug',
+  type: 'fetch',
+  columns: ['requestType', 'responseStatus', 'duration', 'url', 'responseSize', 'timestamp'],
+  urlOptions: { host: false, pathname: 'short', search: true },
+});
 ```
 
 ## API
@@ -64,19 +78,6 @@ type LoggerType = {
   columns?: Columns[];
   urlOptions?: URLOptions;
 };
-```
-
-### Configure Example
-
-```ts
-import RSC_LOGGER from './rsc-logger';
-
-export const logger = RSC_LOGGER.init({
-  mode: 'debug',
-  type: 'fetch',
-  columns: ['requestType', 'responseStatus', 'duration', 'url', 'responseSize', 'timestamp'],
-  urlOptions: { host: false, pathname: 'short', search: true },
-});
 ```
 
 [build-img]: https://github.com/abdify/rsc-logger/actions/workflows/release.yml/badge.svg
